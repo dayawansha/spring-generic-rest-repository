@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/LIFEDEV
+    username: postgres
+    password: admin
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: false
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+          non_contextual_creation: true
+        temp.use_jdbc_metadata_defaults: false
+server:
+  port: 8082
