@@ -26,7 +26,6 @@ import java.util.Map;
  * @author : Dushman Nalin
  * @version : 1.0
  * @date : September 23, 2019
- * @copyright : © 2010-2019 Information International Limited. All Rights Reserved
  */
 @Service
 public class ReferenceModelServiceImpl {

@@ -14,7 +14,6 @@ import java.util.List;
  * @author : Dushman Nalin
  * @version : 1.0
  * @date : September 25, 2019
- * @copyright : © 2010-2019 Information International Limited. All Rights Reserved
  */
 @Repository
 public class CommonRepository implements Serializable {
